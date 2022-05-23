@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .area{
+            width: 100%;
+            max-width: 1480px;
+            height: 1000px;
+            border: 1px solid #ccc;
+            margin: auto;
+        }
+
+
+        #area1 {
+            background: url(images/puckered.png) no-repeat fixed;
+        }
+        #area2 {
+            background: url(images/slide2.jpg) no-repeat fixed;
+        }
+        #area3 {
+            background: url(images/slide3.jpg) no-repeat fixed;
+        }
+        #area4 {
+            background: url(images/slide4.jpg) no-repeat fixed;
+        }
+        a, a:visited {
+            color: #fff;
+            margin-right: 15px;
+        }
+        a.up {
+           width: 80px;
+           height: 80px;
+           background-color: rgb(255, 106, 0); 
+           color: #fff;
+           display: block;
+           text-decoration: none;
+           border-radius: 50%;
+           text-align: center;
+           line-height: 80px;
+           position: fixed;
+           right: 5px;
+           bottom: 10px ;
+        }
+    </style>
+</head>
+<body>
+    <!-- section.area#area$*4 --> 
+    <!-- a*4 -->
+    <section class="area" id="area1">
+        <nav><a href="#area1">BNT1</a><a href="#area2">BTN2</a><a href="#area3">BNT3</a><a href="#area4">BNT4</a></nav>
+    </section>
+    <section class="area" id="area2"></section>
+    <section class="area" id="area3"></section>
+    <section class="area" id="area4"></section>
+
+        <footer>
+            <a href="#area1" class="up">TOP</a>
+        </footer>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
